@@ -3,7 +3,7 @@ body {
 }
 
 #logo {
-    width: 150	px;
+    height: 100px;
     vertical-align: middle;
 }
 
@@ -17,7 +17,12 @@ body {
 }
 
 .brand-logo {
-   min-height: 200px;
+   max-height: 200px;
+}
+
+.nav-wrapper {
+   height: 65px;
+   margin-bottom: 25px;
 }
 
 i.icon-purple {
