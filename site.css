@@ -12,6 +12,10 @@ body {
     vertical-align: top;
 }
 
+#tagline {
+   margin-top: 75px;
+}
+
 .contact {
 	margin-top: 20px;
 }
