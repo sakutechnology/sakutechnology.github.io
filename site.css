@@ -1,0 +1,65 @@
+body {
+    padding: 0px;
+}
+
+#logo {
+    width: 150	px;
+    vertical-align: middle;
+}
+
+#name {
+    font-size: 32pt;
+    vertical-align: top;
+}
+
+.contact {
+	margin-top: 20px;
+}
+
+.brand-logo {
+   min-height: 200px;
+}
+
+i.icon-purple {
+    color: #4a148c;
+}
+
+
+.parallax-container {
+  min-height: 250px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.hide-on-load {
+   display: none;
+}
